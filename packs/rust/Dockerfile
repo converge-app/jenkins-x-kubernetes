@@ -1,4 +1,4 @@
 FROM debian:8
 EXPOSE 8080
-CMD ["/jenkins-x-kubernetes"]
+CMD ["/REPLACE_ME_APP_NAME"]
 COPY ./ /

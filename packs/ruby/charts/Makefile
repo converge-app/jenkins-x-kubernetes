@@ -1,6 +1,6 @@
 CHART_REPO := http://jenkins-x-chartmuseum:8080
 CURRENT=$(pwd)
-NAME := jenkins-x-kubernetes
+NAME := REPLACE_ME_APP_NAME
 OS := $(shell uname)
 RELEASE_VERSION := $(shell cat ../../VERSION)
 
